@@ -1,0 +1,80 @@
+body {
+    background-color: #354649;
+}
+.app-name {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #6C7A89;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+}
+.input {
+    font-size: 25px;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: #A3C6C4;
+    color: #354649;
+}
+.addButton {
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #A3C6C4;
+    color: #354649;
+}
+.deleteButton {
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #A3C6C4;
+    color: #354649;
+}
+li {
+    color: white;
+}
+
+@media all and (max-width:400px) {
+    .app-name {
+        font-size: 22px;
+    }
+    .input {
+        font-size: 18px;
+        width: 230px;
+        height: 25px;
+    }
+    .addButton {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:300px) {
+    .app-name {
+        font-size: 20px;
+    }
+    .input {
+        font-size: 15px;
+        width: 150px;
+        height: 20px;
+    }
+    .addButton {
+        font-size: 15px;
+    }
+    li {
+        font-size: 18px;
+    }
+    .deleteButton {
+        font-size: 15px;
+    }
+}
